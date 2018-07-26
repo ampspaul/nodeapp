@@ -9,8 +9,8 @@ app.get('/',(req,res,next)=>{
     res.send("hello from node app");
 });
 
-app.get('/dashbord',(req,res,next)=>{
-    res.send("hello from node app dashord");
+app.get('/dashboard',(req,res,next)=>{
+    res.send("hello from node app dashboard");
 });
 app.listen(app.get('PORT'),()=>{
     console.log("server running on port 3000");
