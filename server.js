@@ -14,5 +14,5 @@ app.get('/dashboard',(req,res,next)=>{
     res.send("hello from node app dashboard");
 });
 app.listen(app.get('PORT'),()=>{
-    console.log("server running on port " + app.get('PORT'));
+    console.log("server running on port : " + app.get('PORT'));
 });
